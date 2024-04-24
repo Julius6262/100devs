@@ -1,0 +1,37 @@
+body{
+    background-color: rgb(22, 195, 238);
+    border: 5px solid rgb(45, 143, 45);
+}
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    color: white;
+}
+nav ul li { /* how to get the first tekst white and only this on without id*/
+    display: inline;
+    margin-right: 10px;
+    font-family: 'roboto', sans-serif;
+    text-decoration: underline;
+    color: green;  
+}
+body > nav:first-of-type ul li:first-child {
+    color: white;
+}
+
+
+h2 {
+    font-family: 'roboto', sans-serif;
+    color: white
+}
+
+p {
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+}
+
+img{
+    height: 200px;
+    width: 150px;
+    float: right;
+    margin: 0 0 10px 10px;
+}
