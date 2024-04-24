@@ -7,15 +7,15 @@ h1 {
     font-style: italic;
     color: white;
 }
-nav ul li { /* how to get the first tekst white and only this on without id*/
+li { /* how to get the first tekst white and only this on without id*/
     display: inline;
     margin-right: 10px;
     font-family: 'roboto', sans-serif;
     text-decoration: underline;
-    color: green;  
+    color: white;  
 }
-body > nav:first-of-type ul li:first-child {
-    color: white;
+li a{
+    color: green;
 }
 
 
