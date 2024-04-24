@@ -1,0 +1,21 @@
+*{
+    box-sizing: border-box;
+}
+header,footer{
+    height: 100px;
+    border: 3px solid gray;
+    clear:both;
+}
+section{
+    height: 200px;
+    border: 3px solid gray;
+    width: 33.3333%;
+    float: left;
+}
+p{
+    height: 300px;
+    border: 3px solid gray;
+    width: 50%;
+    float: left;
+    margin: 0px;
+}
