@@ -1,0 +1,118 @@
+/* Box Model Hack */
+* {
+     box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+     font-family: 'Open Sans', sans-serif;
+     
+     
+
+}
+main{
+     text-align: center;  
+     background-color: gray;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+header nav * {
+     color: white;
+ }
+header nav ul {
+     list-style: none;
+     margin: 0;
+     padding: 0;
+ }
+ 
+ header nav ul li a{
+     float: left;
+     width: 10%; /* Adjust as needed */
+ }
+ 
+ header nav img {
+     float: left;
+     width: 60%; /* Adjust as needed */
+     text-align: center;
+ }
+ 
+ header nav a {
+     float: left;
+     width: 20%; /* Adjust as needed */
+     text-align: right;
+ }
+
+footer {
+     background-color: rgb(0, 0, 69);
+     color: white;
+     overflow: auto;
+     
+     
+     
+}
+footer .bottom{
+     float: left;
+     width: 50%;
+     
+}
+.bottom ul{
+     list-style-type: none;
+}
+.last-bottom{
+     margin-bottom: 50px;
+}
+footer .bottom-text{
+     margin-top: 100px;
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+.top-section{
+     color: white;
+}
+.top-section{
+     padding: 0px 300px 5px 300px;
+      }
+      
+
+.top-section a {
+     display: block;
+     margin: 50px auto 50px auto;
+}
+
+.white-section{
+     background-color: white;
+     padding: 0px 400px 0px 400px;
+     margin: 100px 0;
+}
+
+.side-by-side{
+     margin-bottom: 200px;
+     
+}
+.side-by-side section{
+     float: left;
+     width: 50%;
+     margin-bottom: 100px ;
+     background-color: gray;
+}
