@@ -1,0 +1,107 @@
+/* Box Model Hack */
+* {
+     box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+
+}
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+header nav ul{
+     float: left;
+     width: 95%;
+     padding: 0 0 0 50%;
+     list-style-type: none;
+     margin: 0 0 10% 0;
+}
+header nav ul li{
+     float:left;
+     width:16,66%;
+     margin: 0 2% 0 0;
+}
+header nav a{
+     float:left;
+     width:2%;
+     margin: 0 0 10% 0;
+}
+footer {
+
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+
+main section{
+     float: left;
+     width:100%;
+     margin: 0 0 5% 10%;
+}
+
+main section form{
+     float: left;
+     width: 42%;
+}
+main section form input{
+     width: 100%;
+}
+main section a {
+     float: left;
+     width: 28%;
+     margin: 0 30% 0 0;
+}
+main section ul{
+     float: left;
+     width: 100%;
+     list-style-type: none;
+     margin-left: -2%;
+}
+
+main section ul li{
+     float: left;
+     width: 5%;
+}
+
+/* Next section */
+.About{
+     float: left;
+     width: 100%;
+     padding: 0 10% 0% 30%;
+}
+.About > section{
+     float: left;
+     width: 100%;
+}
+
+.specility {
+     float: left;
+     width: 100%;
+}
+.specility  section{
+     float: left;
+     width: 20%;
+     padding-left: 0 40%;
+}
