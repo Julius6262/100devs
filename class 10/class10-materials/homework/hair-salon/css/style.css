@@ -29,14 +29,58 @@ body {
 /******************************************
 /* LAYOUT
 /*******************************************/
-header {
-
+header nav a{
+     float: left;
+     width:10%
 }
 
-footer {
-
+header nav ul{
+     float: left;
+     width:80%;     
+     list-style-type: none;
+}
+header nav ul li{
+     float: left;
+     width: 10%;
 }
 
+main{
+     margin-top: 10%;
+     
+}
+main > section:first-child{
+     margin: 7% 80% 7% 0;
+}
+main > section:first-child a{
+     background-color: black;
+     border: 2px solid black;
+     padding: 1% 2% 1% 2%;
+     margin: 0% 5% 0 5%;
+     color: aliceblue;
+}
+
+main .blackBox{
+     background-color: black;
+     color: white;
+     float: left;
+     width: 30%;
+     margin-right: 30%;
+}
+main .blackBox a{
+     margin-left: 10%;   
+     background-color: white;
+     color: black;
+}
+main .arrows{
+     float: left;
+     width: 20%;
+     margin: 0 15% 12% 0;
+}
+.bottomMain section{
+     float:left;
+     width: 30%;
+     padding: 0 1% 0 5%; 
+}
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
