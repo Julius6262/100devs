@@ -1,0 +1,31 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+html{
+  font-size: 65.5%;
+}
+/******************************************
+/* LAYOUT
+/*******************************************/
+body{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 2rem;
+  font-family: 'Arial Narrow', Arial, sans-serif;
+}
+form label{
+  font-weight: bold;
+}
+.interaction{
+  display:flex;
+  justify-content: space-between;
+}
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
