@@ -1,0 +1,44 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+html{
+  font-size: 65,5%;
+}
+body{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 2rem;
+}
+
+
+
+.numlock-active{
+  background-color: aqua;
+}
+#enter{
+  font-size: 1.8rem;
+}
+
+#numlock{
+  font-size: 1.2rem;
+  padding:0%
+}
+#zero{
+  width:65%;
+}
+#komma{
+  width:27%
+}
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
