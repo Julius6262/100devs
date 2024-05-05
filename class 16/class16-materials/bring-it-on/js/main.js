@@ -15,3 +15,8 @@
 
 //*Loops*
 //Create a function that takes in a word and a number. Console log the word x times where x was the number passed in
+function func(w,n){
+    console.log(w.repeat(n))
+}
+
+func('hi',2)
