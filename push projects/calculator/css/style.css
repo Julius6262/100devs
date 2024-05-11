@@ -20,23 +20,52 @@
 /******************************************
 /* BASE STYLES
 /*******************************************/
-
+html {
+     font-size: 62.5%;
+     font-family: Courier, monospace;
+}
 body {
-
-}
-
-
-/******************************************
-/* LAYOUT
-/*******************************************/
-header {
-
-}
-
-footer {
-
-}
-
-/******************************************
-/* ADDITIONAL STYLES
-/*******************************************/
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     height: 100vh;
+     margin: 0;
+     padding: 0;
+ }
+ 
+ main {
+     width: 35%;
+     padding: 5%;
+     background-color: black;
+     border-radius: 10%;
+ }
+ 
+ h1 {
+     border: 2px solid white;
+     font-size: 3rem;
+     padding: 10px;
+     text-align: center;
+     width: 100%;
+     min-height: 58px;
+     box-sizing: border-box;
+     background-color: white;
+ }
+ 
+ section {
+     display: flex;
+     justify-content: center;
+ }
+ 
+ button {
+     font-size: 2rem;
+     font-weight: bold;
+     margin: 1% 1% 1% 1%;
+     padding: 10px;
+     min-width: 50px;
+     max-width: 100px;
+     flex: 1 1 auto;
+     text-align: center;
+     background-color: white;
+     border-radius: 50%;
+ }
+ 
