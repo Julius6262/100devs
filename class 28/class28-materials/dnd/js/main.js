@@ -34,7 +34,7 @@ function getFetch(){
        const subClassH5 = document.createElement('h5')
 
        //give the element text
-       subClassH5.innerText = element.name
+       subClassH5.innerText = element[i].name
 
        //show the newelement in the dom and place it correctly
        document.querySelector('#subClass').appendChild(subClassH5)
