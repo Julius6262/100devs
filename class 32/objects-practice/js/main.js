@@ -1,7 +1,7 @@
 // Come up with with a parent class
 // Extend that parent class into two children
 // Use Encapsulation, Abstraction, Inheritance, and Polymorphism 
-class Contractor{
+/*class Contractor{
     constructor(name,role){
         this._name = name
         this._role = role
@@ -48,4 +48,51 @@ let agency = [bob,simba,machi]
 
 for(person of agency){
     person.sayHello()
+}
+*/
+
+class Contractor{
+    constructor(hours){
+        this._hours = hours
+        this._hourSalavry = 500
+    }
+    // abstraction
+    get hours(){
+        return this._hours
+    }
+    appBuild(){
+        console.log("ourer team help you build your app")
+    }
+}
+
+class Frontend extends Contractor{
+    constructor(hours){
+        super(hours)
+    }
+
+    fontAppbuild(){
+        super.appBuild()
+        console.log("im building the frontend part")
+    }
+
+    functionality(){
+        console.log("buttons, nav, and more")
+    }
+}
+
+class Backend extends Contractor{
+    constructor(hours){
+        super(hours)
+    }
+    backendAppBuild(){
+        super.appBuild()
+        console.log("im building the backend part")
+
+    }
+}
+
+arr = [new Contractor(200), new Frontend(300), new Backend(320)]
+
+for ( el of arr){
+    console.log(el.appBuild())
 }
