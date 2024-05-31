@@ -1,3 +1,28 @@
 h1{
-  color: red;
+  color: darkgoldenrod;
+}
+body{
+  color:darkgoldenrod;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+button{
+  color: white;
+  background-color: darkgoldenrod;
+  border-radius: 10%;
+  margin-top: 1%;
+}
+#select {
+  color: darkgoldenrod;
+}
+
+.loose{
+  color:red;
+}
+h2.win {
+  color:green;
 }

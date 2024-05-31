@@ -29,19 +29,14 @@ const server = http.createServer((req, res) => {
     case '/':
       sendFile('index.html', 'text/html');
       break;
-    case '/otherpage':
-      sendFile('otherpage.html', 'text/html');
-      break;
-    case '/otherotherpage':
-      sendFile('otherotherpage.html', 'text/html');
-      break;
     case '/api':
-      if ('student' in params) {
-        const student = params['student'];
+      if ('guess' in params ) {
+        const guess = params['guess'];
+        const flipRes = Math.random() < 0.5 ?'heads' : 'tails'
+        const win = guess === flipRes;
         const objToJson = {
-          name: student === 'leon' ? 'leon' : 'unknown',
-          status: student === 'leon' ? 'Boss Man' : 'unknown',
-          currentOccupation: student === 'leon' ? 'Baller' : 'unknown'
+          coinFlip: flipRes,
+          win:win
         };
         sendJson(objToJson);
       }
